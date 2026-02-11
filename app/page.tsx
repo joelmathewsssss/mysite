@@ -64,7 +64,18 @@ export default function Home() {
           </div>
 
           <div style={{ marginTop: 28, fontSize: 13, opacity: 0.6 }}>
-            © {new Date().getFullYear()} Joel Mathews
+            <a
+                href="https://github.com/willcagas/stpr-site"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  textDecoration: "underline",
+                  textUnderlineOffset: 4,
+                  opacity: 0.85,
+                }}
+              >
+                https://github.com/willcagas/stpr-site
+              </a>
           </div>
         </div>
       </div>
