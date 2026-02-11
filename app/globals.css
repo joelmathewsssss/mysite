@@ -34,7 +34,7 @@ body {
   inset: 0;
 background-image: url("/bg.png");
   background-size: 150%;
-  background-position: center;
+background-position: 360% 90%;
   opacity: 0.06;
   animation: flash 3s linear infinite;
   pointer-events: none;

@@ -46,9 +46,20 @@ export default function Home() {
               backdropFilter: "blur(2px)",
             }}
           >
-            <div style={{ fontSize: 14, opacity: 0.75 }}>Status</div>
+            <div style={{ fontSize: 14, opacity: 0.75 }}>GH:</div>
             <div style={{ marginTop: 6, fontSize: 16 }}>
-              github.com/joelmathewsssss
+              <a
+                href="https://github.com/joelmathewsssss"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  textDecoration: "underline",
+                  textUnderlineOffset: 4,
+                  opacity: 0.85,
+                }}
+              >
+                github.com/joelmathewsssss
+              </a>
             </div>
           </div>
 
